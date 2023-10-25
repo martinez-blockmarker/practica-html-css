@@ -57,7 +57,9 @@ main {
     display: flex;
 .list-container-main 
         display: flex;
-        align-items:center;
+        container: 
+        fle: row;
+        align-items: center;
         justify-content:center;
         height: 100vh;
         padding: 3rem;
