@@ -17,8 +17,10 @@ body{
 
 li{
     list-style:none;
-   }
+}
 
+/* logo de spoty, y la navegacion
+*/
 header{
     background-color: white;
     display: flex;
@@ -26,6 +28,9 @@ header{
     padding: 10px 30px;
 
 }
+
+/* foto grande con letras blancas encima
+*/
 .list-container-section {
     background-color: beige;
     display: flexbox;
@@ -48,6 +53,9 @@ nav{
    
     
 }
+
+/* cuerpo con 3 imagenes, en fila y titulo arriba
+*/
 main {
     background-color: beige;
     height: 100%;
@@ -97,7 +105,8 @@ main {
     color:rgb(11, 11, 11)
 }
 
-
+/* fondo verde oscuro, dos imagenes y letras
+*/
 footer{
     background-color:darkgreen;
     justify-content: flex-end;
