@@ -21,7 +21,7 @@ li{
 .navegation{
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: end;
 }
 nav{
     display:flex;
@@ -108,10 +108,20 @@ main div {
 }
 
 .div-style {
-    background-image:"/image/music-icon.png";
+    background-image:"style/image/music-icon.png";
 }
 
+seccion-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    gap:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("styles/images/landing.jpg") ;
 
+}
 
 footer{
     background-color:darkgreen;
